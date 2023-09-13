@@ -7,11 +7,11 @@ class Mahasiswa {
 
   void perkenalan() {
     int usia = DateTime.now().year - this.tahunLahir;
-    print("Perkenalkan, nama saya $nama dengan nim $nim dan usia $usia tahun");
+    print("Perkenalkan, nama saya $nama dengan NIM $nim dan usia $usia tahun");
   }
 }
 
 void main() {
-  var mhs = Mahasiswa("H1D020068", "Muhammad Ihza Althaf Ramadhan", 2003);
+  var mhs = Mahasiswa("H1D021086", "Muhammad Ihza Althaf Ramadhan", 2003);
   mhs.perkenalan();
 }
